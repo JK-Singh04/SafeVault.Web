@@ -1,3 +1,50 @@
+# 🔐 SafeVault: Secure Authentication & Authorization System  
+
+![SafeVault Logo](https://via.placeholder.com/600x200?text=SafeVault)  
+
+SafeVault is a **secure authentication system** built using **ASP.NET Core & SQL Server**. It includes **JWT authentication, role-based access control (RBAC), SQL injection prevention, and XSS protection**.  
+
+---
+
+## 🚀 Features  
+
+| Feature                  | Description |
+|--------------------------|-------------|
+| ✅ **User Authentication** | Secure login & signup with password hashing |
+| ✅ **Role-Based Access** | Admin/User roles with authorization |
+| ✅ **JWT Authentication** | Token storage in **HTTP-only cookies** |
+| ✅ **SQL Injection Prevention** | Uses parameterized queries |
+| ✅ **XSS Protection** | HTML encoding for user inputs |
+| ✅ **Unit Tests** | Security testing with **NUnit & xUnit** |
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Backend:** ASP.NET Core, C#  
+- **Frontend:** Razor Pages (ASP.NET)  
+- **Database:** SQL Server (SSMS)  
+- **Authentication:** JWT, BCrypt for password hashing  
+- **Security:** SQL Injection & XSS Protection  
+- **Testing:** NUnit, xUnit  
+
+---
+
+## 📂 Project Structure  
+
+```bash
+SafeVault.Web/
+│-- Controllers/       # Authentication & Role-Based Access API
+│-- Models/            # User, Role, and Authentication Models
+│-- Views/             # Razor UI (Login, Signup, Dashboard)
+│-- Services/          # Authentication & Security Services
+│-- Data/              # Database Context & Migrations
+│-- Tests/             # Security & Authentication Unit Tests
+│-- wwwroot/           # Frontend assets (CSS, JS)
+│-- appsettings.json   # Configuration file (Database, JWT)
+│-- Program.cs         # Application entry point
+│-- Startup.cs         # Middleware & Dependency Injection
+
 ##SafeVault: Secure Authentication & Authorization System
 #📌 Project Overview
 SafeVault is a secure authentication and authorization system built using ASP.NET Core, Razor Pages, and SQL Server. It implements best security practices such as JWT-based authentication, role-based access control (RBAC), input validation, SQL injection prevention, and XSS protection.
