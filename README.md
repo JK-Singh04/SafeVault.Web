@@ -59,7 +59,7 @@ SafeVault.Web/
 🔹 If you find security vulnerabilities, please report them via GitHub Issues.
 🔹 Contributions are welcome! Fork and submit pull requests.
 
-# 📌 GitHub Repository: SafeVault.Web
+# 📌 GitHub Repository: [SafeVault.Web](https://github.com/JK-Singh04/SafeVault.Web)
 
 # 🔥 Secure Your Applications with SafeVault! 🚀
 
