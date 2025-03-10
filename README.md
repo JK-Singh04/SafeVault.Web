@@ -34,10 +34,8 @@ SafeVault is a **secure authentication system** built using **ASP.NET Core & SQL
 SafeVault.Web/
 --
 │-- Controllers/       # Authentication & Role-Based Access API
-
 --
 │-- Models/            # User, Role, and Authentication Models
-
 --
 │-- Views/             # Razor UI (Login, Signup, Dashboard)
 --
